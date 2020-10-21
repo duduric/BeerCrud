@@ -1,1 +1,1 @@
-Contribua e ganhe uma camiseta grátis.
+Don't
