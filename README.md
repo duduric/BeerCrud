@@ -15,5 +15,8 @@ que no caso eu utilizei o serviço do site: [Modulus](https://modulus.io/)
 
 5. Depois de tudo instalado, entramos via terminal e iniciamos o **server.js**
 	* ``` node server.js ```
+
 6. Beers for everyone
 	* ``` enjoy.js ```
+
+7. And shirts too
