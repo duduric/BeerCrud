@@ -1,0 +1,23 @@
+<h3>Listagem de Beer</h3>
+<hr>
+<table class="table table-bordered table-stripped">
+	<thead>
+		<tr>
+			<th>Nome</th>
+			<th>Quantidade</th>
+			<th>Valor</th>
+			<th>Ação</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="beer in beers">
+			<td>{{beer.nome}}</td>
+			<td>{{beer.quantidade}}</td>
+			<td>{{beer.valor}}</td>
+			<td>
+				<button ng-click="alterBeer(beer)" class="btn btn-warning">Alterar</button>
+				<button ng-click="removeBeer(beer)" class="btn btn-danger">Remover</button>
+			</td>
+		</tr>
+	</tbody>
+</table>
